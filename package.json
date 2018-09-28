@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "engines":"8.11.3",
+  "author": "Rohan Dhar",
   "license": "ISC",
   "dependencies": {
     "cookie-session": "^2.0.0-beta.3",
