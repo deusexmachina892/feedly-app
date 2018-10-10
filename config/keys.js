@@ -3,5 +3,5 @@ if(process.env.NODE_ENV === "production"){
 } else if(process.env.NODE_ENV === "development"){
     module.exports = require('./dev');
 }  else{
-
+    module.exports= require('./test');
 } 
